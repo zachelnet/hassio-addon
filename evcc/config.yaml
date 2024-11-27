@@ -1,7 +1,7 @@
 ---
-name: evcc
-version: nightly
-slug: evcc
+name: evcc-0.129.0
+version: 0.129.0
+slug: evcc-0.129.0
 description: EV Charge Controller!
 url: https://github.com/evcc-io/evcc
 arch: 
