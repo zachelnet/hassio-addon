@@ -1,7 +1,7 @@
 ---
-name: quay.io/zachelnet/evcc
+name: zachelnet/evcc
 version: master
-slug: quay.io/zachelnet/evcc
+slug: zachelnet/evcc
 description: EV Charge Controller!
 url: https://github.com/evcc-io/evcc
 arch: 
