@@ -1,7 +1,7 @@
 ---
-name: evcc (nightly)
-version: nightly.20250222-b4eb7b2
-slug: evcc-nightly
+name: evcc (zachelnet)
+version: master
+slug: evcc-zachelnet
 description: Nightly version of EV Charge Controller!
 url: https://github.com/evcc-io/evcc
 arch: 
@@ -19,10 +19,10 @@ stage: experimental
 ingress: true
 ingress_port: 7070
 init: false
-image: evcc/evcc
+image: zachelnet/evcc
 options: 
   config_file: /config/evcc.yaml
-  sqlite_file: /data/evcc.db
+  sqlite_file: /config/evcc.db
 schema:
   config_file: str
   sqlite_file: str
